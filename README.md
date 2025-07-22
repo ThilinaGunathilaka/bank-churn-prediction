@@ -7,7 +7,7 @@ A complete data science project that predicts whether a bank customer is likely 
 ## 📁 Project Structure
 
 <pre lang="nohighlight">
-  <code>```bash 
+  <code>
   bank-churn-project/ 
   ├── data/ 
   │ └── BankCustomerChurnPrediction.csv # Raw dataset from Kaggle 
@@ -19,7 +19,7 @@ A complete data science project that predicts whether a bank customer is likely 
   │ └── app.py # Streamlit app for churn prediction 
   ├── Business Recommendations & Reporting.txt # Insights and strategy document 
   └── README.md # Project overview 
-  ```</code>
+  </code>
 </pre>
 
 ---
