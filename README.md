@@ -6,17 +6,7 @@ A complete data science project that predicts whether a bank customer is likely 
 
 ## 📁 Project Structure
 
-bank-churn-project/
-├── data/
-│ └── BankCustomerChurnPrediction.csv # Raw dataset from Kaggle
-├── notebooks/
-│ ├── 01_eda.ipynb # Data analysis and visualization
-│ ├── xgb_model.pkl # Trained XGBoost model
-│ └── scaler.pkl # Scaler used for input features
-├── dashboard/
-│ └── app.py # Streamlit app for churn prediction
-├── Business Recommendations & Reporting.txt # Insights and strategy document
-└── README.md # Project overview (this file)
+<pre lang="nohighlight"><code>```bash bank-churn-project/ ├── data/ │ └── BankCustomerChurnPrediction.csv # Raw dataset from Kaggle ├── notebooks/ │ ├── 01_eda.ipynb # Data analysis and visualization │ ├── xgb_model.pkl # Trained XGBoost model │ └── scaler.pkl # Scaler used for input features ├── dashboard/ │ └── app.py # Streamlit app for churn prediction ├── Business Recommendations & Reporting.txt # Insights and strategy document └── README.md # Project overview ```</code></pre>
 
 ---
 
@@ -100,8 +90,9 @@ Given customer data (e.g., age, credit score, account balance, products used), p
 The `dashboard/app.py` allows users to interactively input customer details and predict churn in real time.
 
 ### ▶️ Run the app:
+``` bash
 streamlit run dashboard/app.py
-
+```
 ---
 
 ## 📄 Business Recommendations (Summary)
