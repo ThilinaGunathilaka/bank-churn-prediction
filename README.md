@@ -6,7 +6,21 @@ A complete data science project that predicts whether a bank customer is likely 
 
 ## 📁 Project Structure
 
-<pre lang="nohighlight"><code>```bash bank-churn-project/ ├── data/ │ └── BankCustomerChurnPrediction.csv # Raw dataset from Kaggle ├── notebooks/ │ ├── 01_eda.ipynb # Data analysis and visualization │ ├── xgb_model.pkl # Trained XGBoost model │ └── scaler.pkl # Scaler used for input features ├── dashboard/ │ └── app.py # Streamlit app for churn prediction ├── Business Recommendations & Reporting.txt # Insights and strategy document └── README.md # Project overview ```</code></pre>
+<pre lang="nohighlight">
+  <code>```bash 
+  bank-churn-project/ 
+  ├── data/ 
+  │ └── BankCustomerChurnPrediction.csv # Raw dataset from Kaggle 
+  ├── notebooks/ 
+  │ ├── 01_eda.ipynb # Data analysis and visualization 
+  │ ├── xgb_model.pkl # Trained XGBoost model 
+  │ └── scaler.pkl # Scaler used for input features 
+  ├── dashboard/ 
+  │ └── app.py # Streamlit app for churn prediction 
+  ├── Business Recommendations & Reporting.txt # Insights and strategy document 
+  └── README.md # Project overview 
+  ```</code>
+</pre>
 
 ---
 
